@@ -61,3 +61,4 @@ console.log('string length ', fullName.length);
 console.log('Upper case ', fullName.toUpperCase());
 console.log('Lower case ', fullName.toLocaleLowerCase());
 console.log('Postion of S' , fullName.indexOf('h'))
+console.log('Slice', fullName.slice(0, 5));
