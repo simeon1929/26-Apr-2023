@@ -36,7 +36,25 @@ console.log('const');
 
 const xy = 20 
 console.log('const xy =', xy);
-xy = 30
-console.log('const chnanges', xy);
+// xy = 30
+// console.log('const chnanges', xy);
 
 // 
+
+
+console.log('String started');
+
+// string 
+let stringEx = 'Simeon'
+console.log('String Example', stringEx);
+
+// String concatination
+let firstName = 'simeon'
+let lastName = 'haries'
+
+let fullName = firstName + ' ' + lastName
+console.log('cocatation', fullName);
+//String length 
+console.log('string length ', fullName.length);
+
+//String methods
