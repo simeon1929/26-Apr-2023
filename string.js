@@ -56,3 +56,20 @@ if(testSring == testNewStr) {
 // addPlus += 7
 
 // console.log('Result ', addPlus);
+
+let numberTest = 15 
+//numberTest += 15
+//console.log('Number plus', numberTest);
+
+// numberTest -= 4
+// console.log('Number Minus', numberTest );
+
+// numberTest /= 2
+
+//numberTest ++
+//numberTest --
+
+console.log(numberTest);
+
+
+
