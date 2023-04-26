@@ -47,3 +47,12 @@ if(testSring == testNewStr) {
 }
 
 // condtion checked 
+
+
+// plus opertor 
+
+// let addPlus = 10
+
+// addPlus += 7
+
+// console.log('Result ', addPlus);
