@@ -58,3 +58,6 @@ console.log('cocatation', fullName);
 console.log('string length ', fullName.length);
 
 //String methods
+console.log('Upper case ', fullName.toUpperCase());
+console.log('Lower case ', fullName.toLocaleLowerCase());
+console.log('Postion of S' , fullName.indexOf('h'))
