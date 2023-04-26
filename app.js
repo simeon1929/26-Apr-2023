@@ -62,3 +62,28 @@ console.log('Upper case ', fullName.toUpperCase());
 console.log('Lower case ', fullName.toLocaleLowerCase());
 console.log('Postion of S' , fullName.indexOf('h'))
 console.log('Slice', fullName.slice(0, 5));
+
+// Javascript as a object when we use new
+
+let name = new String('simeon')
+console.log(name);
+
+// Object structure 
+
+let sampObj = {
+    name : 'simeon',
+    age : 20,
+}
+
+console.log('Sample obj', sampObj);
+
+// check string and new sting equal or not 
+
+let testSring = 'Simeon'
+let testNewStr = new String ('Simeon')
+
+if(testSring == testNewStr) {
+    console.log('condtion true');
+} else {
+    console.log('condtion wrong');
+}
