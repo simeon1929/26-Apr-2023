@@ -87,3 +87,5 @@ if(testSring == testNewStr) {
 } else {
     console.log('condtion wrong');
 }
+
+// condtion checked 
