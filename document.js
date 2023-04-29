@@ -32,3 +32,28 @@ let result = `Father name is ${ FatherName} , Mother name ${ wifeName} and first
 
  console.log(html);
 
+// Test 
+
+let testObj = {
+    Fname : 'simeon',
+    SName : 'Haries'
+
+}
+let testName = 'test'
+console.log(testName);
+
+
+let h1Tag = document.querySelector('.fname')
+let h2Tag = document.querySelector('.sname')
+
+let resultobj = testObj.Fname;
+console.log('result object', resultobj);
+
+
+// h1Tag.textContent += ' Haries'
+//  h1Tag.innerText = "Simeon"
+
+h1Tag.innerText = testObj.Fname;
+h2Tag.innerText = testObj.SName;
+
+
