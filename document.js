@@ -57,3 +57,12 @@ h1Tag.innerText = testObj.Fname;
 h2Tag.innerText = testObj.SName;
 
 
+let cDiv = document.createElement('div')
+cDiv.classList.add('newClass')
+cDiv.innerText = 'My New Text'
+
+let bodyN = document.querySelector('body') 
+bodyN.append(cDiv)
+console.log(cDiv);
+
+
