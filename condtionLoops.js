@@ -22,6 +22,10 @@ if(10 < 5) {
 
 //let totalStep = 10
 
+// for(initialaization, condition , afterthroug) {
+//     Statement 
+// }
+
 for(let step = 0; step < 10 ; step ++ ) {
     
     if(step == 5) {
