@@ -35,3 +35,43 @@ for(let step = 0; step < 10 ; step ++ ) {
     }
     console.log('Steps ' , step);
 }
+
+
+
+//form Value 
+
+let btn = document.getElementById('btn')
+// console.log(btn);
+
+function countSlect (selectObject) {
+    let numberSelect = 0
+    for(let i = 0 ; i < selectObject.options.length ; i++) {
+        //console.log([i]);
+        if(selectObject.options[i].slected) {
+            numberSelect++
+        }
+    }
+    return numberSelect;
+}
+
+btn.addEventListener('click', (e)=>{
+    const musicTypes = document.selectForm.musicTypes
+    console.log(`You have selected ${countSlect(musicTypes)} option(s).`);
+})
+
+// function countSelected(selectObject) {
+//     let numberSelected = 0;
+//     for (let i = 0; i < selectObject.options.length; i++) {
+//       if (selectObject.options[i].selected) {
+//         numberSelected++;
+//       }
+//     }
+//     return numberSelected;
+//   }
+  
+//   const btn = document.getElementById("btn");
+  
+//   btn.addEventListener("click", () => {
+//     const musicTypes = document.selectForm.musicTypes;
+//     console.log(`You have selected ${countSelected(musicTypes)} option(s).`);
+//   });
